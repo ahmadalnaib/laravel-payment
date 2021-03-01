@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    <script src="https://js.stripe.com/v3/"></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -34,7 +35,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('plans') }}">{{ __('Plans') }}</a>
+                            <a class="nav-link" href="{{ route('subscriptions.plans') }}">{{ __('Plans') }}</a>
                         </li>
                     </ul>
 
